@@ -929,7 +929,7 @@ function cambiarAccion(valor) {
 
 
 function updateProgress() {
-  const fields = document.querySelectorAll('input[], select[]');
+  const fields = document.querySelectorAll('input[required], select[required]');
   let filled = 0;
   fields.forEach(f => { if (f.value) filled++; });
   const pct = Math.round((filled / fields.length) * 100);
