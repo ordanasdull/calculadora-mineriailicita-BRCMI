@@ -452,7 +452,7 @@
             <div class="radio-group">
               <label class="radio-chip"><input type="radio" name="accion" value="Ingresar  operacion" onchange="cambiarAccion(this.value)"> Ingresar  operacion</label>
               <label class="radio-chip"><input type="radio" name="accion" value="Editar operacion" onchange="cambiarAccion(this.value)"> Editar operacion</label>
-              <label class="radio-chip"><input type="radio" name="accion" value="Analisis   avanzado con ia de operaciones" onchange="cambiarAccion(this.value)"> Analisis   avanzado con ia de operaciones</label>
+              <label class="radio-chip"><input type="radio" name="accion" value="Analisis avanzado con ia de operaciones" onchange="cambiarAccion(this.value)"> Analisis avanzado con ia de operaciones</label>
             </div>
           </div>
           <!-- Solo visible en Editar operacion -->
@@ -921,7 +921,7 @@ function cambiarAccion(valor) {
       zonaEnvio.style.display = 'flex';
     }, 300);
 
-  } else if (valor === 'Analisis   avanzado con ia de operaciones') {
+  } else if (valor === 'Analisis avanzado con ia de operaciones') {
     campoAnalisis.style.display = 'block';
     zonaEnvio.style.display = 'flex';
   }
